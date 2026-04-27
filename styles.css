@@ -168,6 +168,11 @@ main h2{
     text-align: center;
 }
 
+.animation video{
+    display: block;
+    margin: 2rem auto;
+}
+
 .animation ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -181,6 +186,13 @@ main h2{
     background-color: var(--papa);
     border-radius: 15px;
     border: dotted 5px var(--laser);
+}
+
+.animation li a{
+    color: var(--rose);
+    background-color: var(--reg-nav);
+    border-radius: 5px;
+    padding: 0.15rem;
 }
 
 .animation b{
@@ -327,6 +339,14 @@ footer p{
         padding: 1rem;
         width: 90%;
         margin: auto;
+    }
+
+    .animation video{
+        width: 90%;
+    }
+
+    .animation ul{
+        grid-template-columns: 1fr;
     }
 
     .sites ul{
